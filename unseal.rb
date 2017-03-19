@@ -18,7 +18,7 @@ class Unseal < Formula
   end
 
   def install
-    bin.install "unseal"
+    bin.install "*/unseal"
   end
 
   test do

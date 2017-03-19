@@ -18,6 +18,7 @@ class Unseal < Formula
   end
 
   def install
+    # install
     bin.install "unseal"
   end
 

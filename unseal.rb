@@ -11,7 +11,7 @@ class Unseal < Formula
 
   if Hardware::CPU.is_64_bit?
     url "https://github.com/jaxxstorm/unseal/releases/download/v0.3.1/unseal_0.3.1_darwin_amd64.zip"
-    sha256 "1e6bedf993dcb50022d011af9d4fc6450e907e77715acf8ed4a83b0ae489bbe1"
+    sha256 "f9e50a7b9b25e5e7cccc9e7b8033d9f9e5039f81d5b303177304daf1d99674ec"
   #else
   #  url "https://github.com/jaxxstorm/unseal/releases/download/v0.3-beta/unseal-v0.3-beta_darwin_amd64"
   #  sha256 ""

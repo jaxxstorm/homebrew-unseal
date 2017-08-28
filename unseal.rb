@@ -7,11 +7,11 @@
 class Unseal < Formula
   desc "Unseal multiple vault servers quickly and easily"
   homepage "https://github.com/jaxxstorm/unseal"
-  version "v0.3.3-d7c2002"
+  version "v0.4.0-fb8aa52"
 
   if Hardware::CPU.is_64_bit?
-    url "https://github.com/jaxxstorm/unseal/releases/download/vv0.3.3-d7c2002/unseal_v0.3.3-d7c2002_darwin_amd64.zip"
-    sha256 "f122cee6d2e52d94762b7bca7366a0e052090b7a6aeaffd952ceb34e8f79665b"
+    url "https://github.com/jaxxstorm/unseal/releases/download/vv0.4.0-fb8aa52/unseal_v0.4.0-fb8aa52_darwin_amd64.zip"
+    sha256 "1a85ef32383b9152a0ac9df60970fc5597e40f83ca50a6dbc18df9a0d504b159"
   #else
   #  url "https://github.com/jaxxstorm/unseal/releases/download/v0.3-beta/unseal-v0.3-beta_darwin_amd64"
   #  sha256 ""
